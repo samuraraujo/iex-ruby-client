@@ -24,6 +24,7 @@ module IEX
       include Endpoints::Sectors
       include Endpoints::RefData
       include Endpoints::StockMarket
+      include Endpoints::Splits
 
       include Cloud::Connection
       include Cloud::Request
