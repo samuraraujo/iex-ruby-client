@@ -11,6 +11,7 @@ module IEX
       include Endpoints::Company
       include Endpoints::Crypto
       include Endpoints::Dividends
+      include Endpoints::Intraday
       include Endpoints::Earnings
       include Endpoints::HistoricalPrices
       include Endpoints::Income
